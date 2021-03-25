@@ -9,3 +9,4 @@ A Twitter clone built using Python, Flask, and Postgres.
 - Add user edit functionality.
 - Fix homepage to only show tweets from followers and own tweets.
 - Add "like" functionality. Users can now like and unlike tweets. 
+- Add test cases 
