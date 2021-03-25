@@ -299,7 +299,7 @@ def messages_add():
     """
 
     if not g.user:
-        flash("Access unauthorized.", "danger")
+        flash("Access unauthorized", "danger")
         return redirect("/")
 
     form = MessageForm()
@@ -327,7 +327,7 @@ def messages_destroy(message_id):
     """Delete a message."""
 
     if not g.user:
-        flash("Access unauthorized.", "danger")
+        flash("Access unauthorized", "danger")
         return redirect("/")
 
     msg = Message.query.get(message_id)
